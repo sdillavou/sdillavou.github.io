@@ -33,7 +33,7 @@ $(document).ready(function() {
 							+"You're on your own now, young one.<br>(Click '?' to close and reopen help.)<br><br><p4>6/6</p4>"
 							+'<img id="x" class="x" src="x.png">'+'<img id="y" class="x x2" src="arrow2.png">'+'<img id="z" class="x x2" src="arrow.png">',
 						'',
-						"Don't see a link you want? Add it!"+'<br><br><FORM METHOD="LINK" ACTION="homepage2b.html"><p3>Website URL: </p3>http://<p3><INPUT TYPE="text" NAME="..website.." class="formform">'+
+						"Don't see a link you want? Add it!"+'<br><br><FORM METHOD="LINK" ACTION="HomePage2B.html"><p3>Website URL: </p3>http://<p3><INPUT TYPE="text" NAME="..website.." class="formform">'+
 						'<br><br>Image File Name: <INPUT TYPE="text" NAME="..image.." class="formform"><br><br>Link Background Color: <INPUT TYPE="text" NAME="..color.." class="formform">'+
 						'<br><br><INPUT TYPE="submit" VALUE="Add Link" style="margin-top:10px"></p3></FORM>'+
 							'<img id="x" class="x" src="x.png">'

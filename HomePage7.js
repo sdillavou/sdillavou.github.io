@@ -29,7 +29,7 @@ $(document).ready(function() {
 		sites[19][4];
 		storedInfo[2] = 3;
 	} catch(err) {
-		window.location.href = 'Homepage2B.html';
+		window.location.href = 'HomePage2B.html';
 		error1 = true;
 	}
 	if(!error1){
@@ -84,7 +84,7 @@ $(document).ready(function() {
 	$(document).on('click',"#date",function(){
 		$('#box').animate({"left":-$(window).width()},400);
 		setTimeout(function()
-		{window.location.href = 'Homepage2B.html';},300);
+		{window.location.href = 'HomePage2B.html';},300);
 		});
 		
 		
