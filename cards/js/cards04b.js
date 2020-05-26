@@ -57,7 +57,7 @@ $(document).ready(function() {
 	//show game on screen, set up click triggers
 	setUp();
 
-	location.reload()
+	//location.reload()
 
 	function setUp(){
 		
@@ -566,7 +566,7 @@ $(document).ready(function() {
 
 	function alertVictory() {
 		if(WINNER != "none"){
-			alert(WINNER + " wins! click ok to refresh.");
+			alert(WINNER + " wins! Refresh to play again.");
 			return true;
 		}
 		else { return false;}
