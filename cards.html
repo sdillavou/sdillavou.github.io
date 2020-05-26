@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<head>
+<link rel="icon" 
+      type="image/png" 
+      href="img/favicon.ico">
+<title>Cards</title>
+
+<link type="text/css" rel="stylesheet" href="cards/css/cards02.css"/>
+
+<script type="text/javascript" src="cards/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="cards/js/jquery-ui.min.js"></script>
+
+
+<script type="text/javascript" src="cards/js/data03.js"></script>
+<script type="text/javascript" src="cards/js/cards04b.js"></script>
+
+
+</head>
+
+<body id="bodyID">
+
+	<div id="computer-hand" class="hand">
+		<div id="computer-hand-space-1" class="space">
+				<div class="card"></div>
+		</div>
+		<div id="computer-hand-space-2" class="space">
+				<div class="card"></div>
+		</div>
+		<div id="computer-hand-space-3" class="space">
+				<div class="card"></div>
+		</div>
+		<div id="computer-hand-space-4" class="space">
+				<div class="card"></div>
+		</div>
+		<div id="computer-hand-space-5" class="space">
+				<div class="card"></div>
+		</div>
+		<div id="computer-hand-space-6" class="space">
+				<div class="card"></div>
+		</div>
+		<div id="computer-hand-space-7" class="space">
+				<div class="card"></div>
+		</div>
+	</div>
+
+
+	<div id="computer-line" class="line">
+		<div id="computer-line-space-1" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-2" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-3" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-4" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-5" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-6" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-7" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-8" class="space flagSpace">
+		</div>
+		<div id="computer-line-space-9" class="space flagSpace">
+		</div>
+	</div>
+
+
+	<div id="computer-field" class="field">
+		<div id="computer-field-space-1" class="space computerFieldSpace">
+			<div id="computer-field-slot-1-1" class="slot">
+			</div>
+			<div id="computer-field-slot-1-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-1-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-2" class="space computerFieldSpace">
+			<div id="computer-field-slot-2-1" class="slot">
+			</div>
+			<div id="computer-field-slot-2-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-2-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-3" class="space computerFieldSpace">
+			<div id="computer-field-slot-3-1" class="slot">
+			</div>
+			<div id="computer-field-slot-3-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-3-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-4" class="space computerFieldSpace">
+			<div id="computer-field-slot-4-1" class="slot">
+			</div>
+			<div id="computer-field-slot-4-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-4-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-5" class="space computerFieldSpace">
+			<div id="computer-field-slot-5-1" class="slot">
+			</div>
+			<div id="computer-field-slot-5-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-5-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-6" class="space computerFieldSpace">
+			<div id="computer-field-slot-6-1" class="slot">
+			</div>
+			<div id="computer-field-slot-6-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-6-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-7" class="space computerFieldSpace">
+			<div id="computer-field-slot-7-1" class="slot">
+			</div>
+			<div id="computer-field-slot-7-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-7-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-8" class="space computerFieldSpace">
+			<div id="computer-field-slot-8-1" class="slot">
+			</div>
+			<div id="computer-field-slot-8-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-8-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="computer-field-space-9" class="space computerFieldSpace">
+			<div id="computer-field-slot-9-1" class="slot">
+			</div>
+			<div id="computer-field-slot-9-2" class="slot stacked-slot">
+			</div>
+			<div id="computer-field-slot-9-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+	</div>
+
+
+	<div id="center-line" class="line">
+		<div id="special-cards" class="card color-special stack">
+			10
+		</div>
+		<div id="regular-cards" class="card stack">
+			46
+		</div>
+
+
+		<div id="center-line-space-1" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+		<div id="center-line-space-2" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+		<div id="center-line-space-3" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+		<div id="center-line-space-4" class="space flagSpace">
+				<div class="flag mud"></div>
+		</div>
+		<div id="center-line-space-5" class="space flagSpace">
+				<div class="flag fog"></div>
+		</div>
+		<div id="center-line-space-6" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+		<div id="center-line-space-7" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+		<div id="center-line-space-8" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+		<div id="center-line-space-9" class="space flagSpace">
+				<div class="flag"></div>
+		</div>
+	</div>
+
+	<div id="player-field" class="field">
+		<div id="player-field-space-1" class="space playerFieldSpace">
+			<div id="player-field-slot-1-1" class="slot">
+				<div class="card color-green">5</div>
+			</div>
+			<div id="player-field-slot-1-2" class="slot stacked-slot">
+				<div class="card color-green">4</div>
+			</div>
+			<div id="player-field-slot-1-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-2" class="space playerFieldSpace">
+			<div id="player-field-slot-2-1" class="slot">
+				<div class="card color-red">1</div>
+			</div>
+			<div id="player-field-slot-2-2" class="slot stacked-slot">
+				<div class="card color-orange">3</div>
+			</div>
+			<div id="player-field-slot-2-3" class="slot stacked-slot third-slot">
+				<div class="card color-purple">1</div>
+			</div>
+		</div>
+		<div id="player-field-space-3" class="space playerFieldSpace">
+			<div id="player-field-slot-3-1" class="slot">
+				<div class="card color-green">2</div>
+			</div>
+			<div id="player-field-slot-3-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-3-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-4" class="space playerFieldSpace">
+			<div id="player-field-slot-4-1" class="slot">
+			</div>
+			<div id="player-field-slot-4-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-4-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-5" class="space playerFieldSpace">
+			<div id="player-field-slot-5-1" class="slot">
+			</div>
+			<div id="player-field-slot-5-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-5-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-6" class="space playerFieldSpace">
+			<div id="player-field-slot-6-1" class="slot">
+			</div>
+			<div id="player-field-slot-6-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-6-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-7" class="space playerFieldSpace">
+			<div id="player-field-slot-7-1" class="slot">
+			</div>
+			<div id="player-field-slot-7-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-7-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-8" class="space playerFieldSpace">
+			<div id="player-field-slot-8-1" class="slot">
+			</div>
+			<div id="player-field-slot-8-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-8-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="player-field-space-9" class="space playerFieldSpace">
+			<div id="player-field-slot-9-1" class="slot">
+			</div>
+			<div id="player-field-slot-9-2" class="slot stacked-slot">
+			</div>
+			<div id="player-field-slot-9-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+	</div>
+
+
+	<div id="player-line" class="line">
+		<div id="player-line-space-1" class="space flagSpace">
+		</div>
+		<div id="player-line-space-2" class="space flagSpace">
+		</div>
+		<div id="player-line-space-3" class="space flagSpace">
+		</div>
+		<div id="player-line-space-4" class="space flagSpace">
+		</div>
+		<div id="player-line-space-5" class="space flagSpace">
+		</div>
+		<div id="player-line-space-6" class="space flagSpace">
+		</div>
+		<div id="player-line-space-7" class="space flagSpace">
+		</div>
+		<div id="player-line-space-8" class="space flagSpace">
+		</div>
+		<div id="player-line-space-9" class="space flagSpace">
+		</div>
+
+		<div id="discard-1" class="discard space">
+			<div id="discard-slot-1" class="slot">
+			</div>
+			<div id="discard-slot-2" class="slot stacked-slot">
+			</div>
+			<div id="discard-slot-3" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+		<div id="discard-2" class="discard space">
+			<div id="discard-slot-4" class="slot">
+			</div>
+			<div id="discard-slot-5" class="slot stacked-slot">
+			</div>
+			<div id="discard-slot-6" class="slot stacked-slot third-slot">
+			</div>
+		</div>
+	</div>
+
+	<div id="player-hand" class="hand">
+		<div id="player-hand-space-1" class="space handSpace">
+			<div id="player-slot-1" class="slot">
+				<div class="card color-blue">9</div>
+			</div>
+		</div>
+		<div id="player-hand-space-2" class="space handSpace">
+			<div id="player-slot-2" class="slot">
+				<div class="card color-blue">3</div>
+			</div>
+		</div>
+		<div id="player-hand-space-3" class="space handSpace">
+			<div id="player-slot-3" class="slot">
+				<div class="card color-yellow">1</div>
+			</div>
+		</div>
+		<div id="player-hand-space-4" class="space handSpace">
+			<div id="player-slot-4" class="slot">
+				<div class="card color-red">7</div>
+			</div>
+		</div>
+		<div id="player-hand-space-5" class="space handSpace">
+			<div id="player-slot-5" class="slot">
+				<div class="card color-orange">10</div>
+			</div>
+		</div>
+		<div id="player-hand-space-6" class="space handSpace">
+			<div id="player-slot-6" class="slot">
+				<div class="card color-yellow">9</div>
+			</div>
+		</div>
+		<div id="player-hand-space-7" class="space handSpace">
+			<div id="player-slot-7" class="slot">
+				<div class="card color-purple">7</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
