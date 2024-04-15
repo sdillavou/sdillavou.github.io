@@ -1,11 +1,11 @@
-@misc{dillavou_bellybutton_2023,
+@preprint{dillavou_bellybutton_2023,
   title = {Bellybutton: {{Accessible}} and {{Customizable Deep-Learning Image Segmentation}}},
   shorttitle = {Bellybutton},
   author = {Dillavou, Sam and Hanlan, Jesse M. and Chieco, Anthony T. and Xiao, Hongyi and Fulco, Sage and Turner, Kevin T. and Durian, Douglas J.},
   year = {2023},
   month = aug,
   number = {arXiv:2309.00058},
-  eprint = {2309.00058},
+  arxiv = {2309.00058},
   primaryclass = {cond-mat},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2309.00058},
@@ -44,17 +44,18 @@
   doi = {10.1103/PhysRevApplied.18.014040},
   urldate = {2022-07-19},
   abstract = {In typical artificial neural networks, neurons adjust according to global calculations of a central processor, but in the brain, neurons and synapses self-adjust based on local information. Contrastive learning algorithms have recently been proposed to train physical systems, such as fluidic, mechanical, or electrical networks, to perform machine-learning tasks from local evolution rules. However, to date, such systems have only been implemented in silico due to the engineering challenge of creating elements that autonomously evolve based on their own response to two sets of global boundary conditions. Here, we introduce and implement a physics-driven contrastive learning scheme for a network of variable resistors, using circuitry to locally compare the response of two identical networks subjected to the two different sets of boundary conditions. Using this method, our system effectively trains itself, optimizing its resistance values without the use of a central processor or external information storage. Once the system is trained for a specified allostery, regression, or classification task, the task is subsequently performed rapidly and automatically by the physical imperative to minimize power dissipation in response to the given voltage inputs. We demonstrate that, unlike typical computers, such learning systems are robust to extreme damage (and thus manufacturing defects) due to their decentralized learning. Our twin-network approach is therefore readily scalable to extremely large or nonlinear networks, where its distributed nature will be an enormous advantage; a laboratory network of only 500 edges will already outpace its in silico counterpart.},
-  file = {/Users/Sam_1/Zotero/storage/V8NLN9FD/Dillavou et al. - 2022 - Demonstration of Decentralized Physics-Driven Lear.pdf;/Users/Sam_1/Zotero/storage/Q38WUMVL/PhysRevApplied.18.html}
+  file = {/Users/Sam_1/Zotero/storage/V8NLN9FD/Dillavou et al. - 2022 - Demonstration of Decentralized Physics-Driven Lear.pdf;/Users/Sam_1/Zotero/storage/Q38WUMVL/PhysRevApplied.18.html},
+  arxiv = {2108.00275}
 }
 
-@misc{dillavou_machine_2023,
+@preprint{dillavou_machine_2023,
   title = {Machine {{Learning Without}} a {{Processor}}: {{Emergent Learning}} in a {{Nonlinear Electronic Metamaterial}}},
   shorttitle = {Machine {{Learning Without}} a {{Processor}}},
   author = {Dillavou, Sam and Beyer, Benjamin D. and Stern, Menachem and Miskin, Marc Z. and Liu, Andrea J. and Durian, Douglas J.},
   year = {2023},
   month = nov,
   number = {arXiv:2311.00537},
-  eprint = {2311.00537},
+  arxiv = {2311.00537},
   primaryclass = {cond-mat},
   publisher = {arXiv},
   doi = {10.48550/arXiv.2311.00537},
@@ -62,7 +63,8 @@
   abstract = {Standard deep learning algorithms require differentiating large nonlinear networks, a process that is slow and power-hungry. Electronic learning metamaterials offer potentially fast, efficient, and fault-tolerant hardware for analog machine learning, but existing implementations are linear, severely limiting their capabilities. These systems differ significantly from artificial neural networks as well as the brain, so the feasibility and utility of incorporating nonlinear elements have not been explored. Here we introduce a nonlinear learning metamaterial -- an analog electronic network made of self-adjusting nonlinear resistive elements based on transistors. We demonstrate that the system learns tasks unachievable in linear systems, including XOR and nonlinear regression, without a computer. We find our nonlinear learning metamaterial reduces modes of training error in order (mean, slope, curvature), similar to spectral bias in artificial neural networks. The circuitry is robust to damage, retrainable in seconds, and performs learned tasks in microseconds while dissipating only picojoules of energy across each transistor. This suggests enormous potential for fast, low-power computing in edge systems like sensors, robotic controllers, and medical devices, as well as manufacturability at scale for performing and studying emergent learning.},
   archiveprefix = {arxiv},
   keywords = {Computer Science - Emerging Technologies,Computer Science - Machine Learning,Condensed Matter - Soft Condensed Matter},
-  file = {/Users/Sam_1/Zotero/storage/W3PLLE48/Dillavou et al. - 2023 - Machine Learning Without a Processor Emergent Lea.pdf;/Users/Sam_1/Zotero/storage/4XQW99SW/2311.html}
+  file = {/Users/Sam_1/Zotero/storage/W3PLLE48/Dillavou et al. - 2023 - Machine Learning Without a Processor Emergent Lea.pdf;/Users/Sam_1/Zotero/storage/4XQW99SW/2311.html},
+  preview = {2023NonlinearNetwork.jpg}
 }
 
 @inproceedings{dillavou_nonlinear_2023,
@@ -74,7 +76,10 @@
   urldate = {2024-02-15},
   abstract = {Computers, as well as most neuromorphic hardware systems, use central processing and top-down algorithmic control to train for machine learning tasks. In contrast, brains are ensembles of 100 billion neurons working in tandem, giving them tremendous advantages in power efficiency and speed. Many physical systems `learn' through history dependence, but training a physical system to perform arbitrary nonlinear tasks without a processor has not been possible. Here we demonstrate the successful implementation of such a system - a learning meta-material. This nonlinear analog circuit is comprised of identical copies of a single simple element, each following the same local update rule. By applying voltages to our system (inputs), inference is performed by physics in microseconds. When labels are properly enforced (also via voltages), the system's internal state evolves in time, approximating gradient descent. Our system \${\textbackslash}textit\{learns on its own\}\$; it requires no processor. Once trained, it performs inference passively, requiring approximately 100{\textasciitilde}\${\textbackslash}mu\$W of total power dissipation across its edges. We demonstrate the flexibility and power efficiency of our system by solving nonlinear 2D classification tasks. Learning meta-materials have immense potential as fast, efficient, robust learning systems for edge computing, from smart sensors to medical devices to robotic control.},
   langid = {english},
-  file = {/Users/Sam_1/Zotero/storage/39XR8AN3/Dillavou et al. - 2023 - Nonlinear Classification Without a Processor.pdf}
+  file = {/Users/Sam_1/Zotero/storage/39XR8AN3/Dillavou et al. - 2023 - Nonlinear Classification Without a Processor.pdf},
+  preview = {2023Classification.jpg},
+  pdf = {NonlinearClassificationWithoutAProcessor.pdf},
+  html = {https://openreview.net/forum?id=4P65OwisG9}
 }
 
 @article{dillavou_nonmonotonic_2018,
@@ -224,7 +229,8 @@
   abstract = {Articular cartilage has well known depth-dependent structure and has recently been shown to have similarly non-uniform depth-dependent mechanical properties. Here, we study anatomic variation of the depth-dependent shear modulus and energy dissipation rate in neonatal bovine knees. The regions we specifically focus on are the patellofemoral groove, trochlea, femoral condyle, and tibial plateau. In every sample, we find a highly compliant region within the first 500 {\textmu}m of tissue measured from the articular surface, where the local shear modulus is reduced by up to two orders of magnitude. Comparing measurements taken from different anatomic sites, we find statistically significant differences localized within the first 50 {\textmu}m. Histological images reveal these anatomic variations are associated with differences in collagen density and fiber organization. {\copyright} 2012 Orthopaedic Research Society. Published by Wiley Periodicals, Inc. J Orthop Res 31: 686--691, 2013},
   langid = {english},
   keywords = {articular cartilage,biomechanics,depth-dependent mechanical properties,energy dissipation,shear modulus},
-  file = {/Users/Sam_1/Zotero/storage/YEUVRK84/Silverberg et al. - 2013 - Anatomic variation of depth-dependent mechanical p.pdf;/Users/Sam_1/Zotero/storage/693JNHTH/jor.html}
+  file = {/Users/Sam_1/Zotero/storage/YEUVRK84/Silverberg et al. - 2013 - Anatomic variation of depth-dependent mechanical p.pdf;/Users/Sam_1/Zotero/storage/693JNHTH/jor.html},
+  preview = {2013Cartilage.jpg}
 }
 
 @article{steinhardt_seismological_2023,

@@ -1,10 +1,10 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Durian":
+  - firstname: [" Douglas", " Douglas J.", "Douglas J", "DJ","D.J.","D. J."]
+    url: https://live-sas-physics.pantheon.sas.upenn.edu/people/standing-faculty/douglas-durian
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Liu":
+  - firstname: [" Andrea", " Andrea J.", "Andrea J", "AJ", "A.J.","A. J."]
+    url: https://live-sas-physics.pantheon.sas.upenn.edu/people/standing-faculty/andrea-liu
 
 "rosen":
   - firstname: ["Nathan", "N."]
