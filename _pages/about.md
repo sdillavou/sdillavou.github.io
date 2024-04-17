@@ -34,8 +34,8 @@ I am an experimental physicist working as a postdoctoral researcher at the Unive
 
 
 
-I build `learning metamaterials`, analog electronic systems where learning emerges from a collection of simple elements rather than being enforced by a processor. They share this property with brains and other biological learning systems, but are simple to control and measure, and have enormous potential as an energy-efficient machine learning hardware platform.
+I build `learning metamaterials`, analog electronic systems where learning emerges from a collection of self-adjusting elements rather than being enforced by a processor. They share this property with brains and other biological learning systems, but are simple to control, measure, and modify. As a result they also have enormous potential as an energy-efficient machine learning hardware platform, and blur the lines between computers, materials, and biology: how do we think about a 'computer' that is divisible like clay?
 
 
 
-I also study physical systems that have resisted understanding using standard statistical methods, including `granular materials` and `frictional interfaces`, and develop `deep-learning software` packages to make experimental research easier and more accessible. 
+I also study physical systems that have resisted understanding using standard statistical methods, including `granular materials` and `frictional interfaces`, and develop `deep-learning` software to make experimental research easier and more accessible. 

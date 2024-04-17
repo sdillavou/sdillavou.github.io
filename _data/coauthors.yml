@@ -1,34 +1,40 @@
-"Durian":
-  - firstname: [" Douglas", " Douglas J.", "Douglas J", "DJ","D.J.","D. J."]
+"durian":
+  - firstname: ["Douglas", "Douglas J.", "Douglas J", "DJ","D.J.","D. J."]
     url: https://live-sas-physics.pantheon.sas.upenn.edu/people/standing-faculty/douglas-durian
 
-"Liu":
-  - firstname: [" Andrea", " Andrea J.", "Andrea J", "AJ", "A.J.","A. J."]
+"liu":
+  - firstname: ["Andrea", "Andrea J.", "Andrea J", "AJ", "A.J.","A. J."]
     url: https://live-sas-physics.pantheon.sas.upenn.edu/people/standing-faculty/andrea-liu
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"stern":
+  - firstname: ["Menachem", "M","M.","Nachi"]
+    url: https://amolf.nl/research-groups/learning-machines
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"miskin":
+  - firstname: ["Marc", "Marc Z.","MZ","M Z", "Marc Z"]
+    url: https://directory.seas.upenn.edu/marc-miskin/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"rubinstein":
+  - firstname: ["Shmuel","Shmuel M.","Shmuel M", "SM","S. M.", "S M"]
+    url: https://phys.huji.ac.il/people/shmuel-m-rubinstein
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"kolinski":
+  - firstname: ["John","John M.","JM","J. M.","John M"]
+    url: https://people.epfl.ch/john.kolinski
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"brenner":
+  - firstname: ["Michael P.","Michael","Michael P", "MP","M. P."]
+    url: https://brennergroup.seas.harvard.edu/people/michael-p-brenner
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"bar-sinai":
+  - firstname: ["Yohai"]
+    url: https://en-exact-sciences.tau.ac.il/profile/yohai
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"tu":
+  - firstname: ["Yuhai"]
+    url: https://research.ibm.com/people/yuhai-tu
+
+"brodsky":
+  - firstname: ["Emily","Emily E.","Emily E","EE"]
+    url: https://seismo.sites.ucsc.edu/emily-brodsky/
+
