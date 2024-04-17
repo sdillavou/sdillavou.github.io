@@ -30,7 +30,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am an experimental physicist working as a postdoctoral researcher at the University of Pennsylvania with Douglas Durian and Andrea Liu. I'm interested in many topics at the interface of physics, machine learning and robotics, biology, and complex systems.
+I am an experimental physicist working as a postdoctoral researcher at the University of Pennsylvania with Douglas Durian and Andrea Liu. I'm interested in a range of topics at the interface of physics, machine learning and robotics, biology, and complex systems.
 
 
 
