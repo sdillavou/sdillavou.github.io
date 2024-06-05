@@ -38,4 +38,4 @@ I build `learning metamaterials`, analog electronic systems where learning emerg
 
 
 
-I also study physical systems that have resisted understanding using standard statistical methods, including `granular materials` and `frictional interfaces`, and develop `deep-learning` software to make experimental research easier and more accessible. 
+I also use `machine learning` as a tool to guide experimental physics research. I focus on systems that have resisted understanding using standard statistical methods, including  `granular materials` and `frictional interfaces`. To make this kind of experimental research easier and more accessible, I develop easy-to-use deep-learning software packages.
