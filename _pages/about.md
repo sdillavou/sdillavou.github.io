@@ -30,10 +30,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I am an experimental physicist working as a postdoctoral researcher at the University of Pennsylvania with Douglas Durian and Andrea Liu. I'm primarily interested in the overlap between the physics of complex systems and machine learning, and how the two fields can inform and support one another. 
+I am an experimental physicist working as an <a href="https://www.aria.org.uk/how-we-fund/the-creator-experience" target="_blank">ARIA R&D Creator</a>, and a visiting scholar at the University of Pennsylvania. I'm primarily interested in building physical systems that perform machine learning without central processing or digital computation.
 
+I build Contrastive Local Learning Networks (CLLNs), analog electronic systems where learning emerges from a collection of self-adjusting elements rather than being enforced by a processor. They share this property with brains and other biological learning systems, but are simple (or at least much simpler) to control, measure, and modify. As a result they also have enormous potential as an energy-efficient machine learning hardware platform, and blur the lines between computers, materials, and biology: how do we think about a 'computer' that is divisible like clay?
 
-I study `emergent learning` by building analog electronic systems where learning emerges from a collection of self-adjusting elements rather than being enforced by a processor. They share this property with brains and other biological learning systems, but are simple (or at least much simpler) to control, measure, and modify. As a result they also have enormous potential as an energy-efficient machine learning hardware platform, and blur the lines between computers, materials, and biology: how do we think about a 'computer' that is divisible like clay?
-
-
-I also use `machine learning as a scientific guide`. I focus on systems that have resisted understanding using standard statistical methods, including  `granular materials` and `frictional interfaces`. To make this kind of experimental research easier and more accessible, I develop easy-to-use deep-learning software packages.
+As a secondary focus, I use `machine learning as a scientific guide`. I focus on systems that have resisted understanding using standard statistical methods, including  `granular materials` and `frictional interfaces`. To make this kind of experimental research easier and more accessible, I develop easy-to-use deep-learning software packages.
