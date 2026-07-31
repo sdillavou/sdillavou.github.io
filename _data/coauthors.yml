@@ -1,29 +1,29 @@
 "durian":
-  - firstname: ["Douglas", "Douglas J.", "Douglas J", "DJ","D.J.","D. J."]
+  - firstname: ["Douglas", "Douglas J.", "Douglas J", "DJ", "D.J.", "D. J."]
     url: https://live-sas-physics.pantheon.sas.upenn.edu/people/standing-faculty/douglas-durian
 
 "liu":
-  - firstname: ["Andrea", "Andrea J.", "Andrea J", "AJ", "A.J.","A. J."]
+  - firstname: ["Andrea", "Andrea J.", "Andrea J", "AJ", "A.J.", "A. J."]
     url: https://live-sas-physics.pantheon.sas.upenn.edu/people/standing-faculty/andrea-liu
 
 "stern":
-  - firstname: ["Menachem", "M","M.","Nachi"]
+  - firstname: ["Menachem", "M", "M.", "Nachi"]
     url: https://amolf.nl/research-groups/learning-machines
 
 "miskin":
-  - firstname: ["Marc", "Marc Z.","MZ","M Z", "Marc Z"]
+  - firstname: ["Marc", "Marc Z.", "MZ", "M Z", "Marc Z"]
     url: https://directory.seas.upenn.edu/marc-miskin/
 
 "rubinstein":
-  - firstname: ["Shmuel","Shmuel M.","Shmuel M", "SM","S. M.", "S M"]
+  - firstname: ["Shmuel", "Shmuel M.", "Shmuel M", "SM", "S. M.", "S M"]
     url: https://phys.huji.ac.il/people/shmuel-m-rubinstein
 
 "kolinski":
-  - firstname: ["John","John M.","JM","J. M.","John M"]
+  - firstname: ["John", "John M.", "JM", "J. M.", "John M"]
     url: https://people.epfl.ch/john.kolinski
 
 "brenner":
-  - firstname: ["Michael P.","Michael","Michael P", "MP","M. P."]
+  - firstname: ["Michael P.", "Michael", "Michael P", "MP", "M. P."]
     url: https://brennergroup.seas.harvard.edu/people/michael-p-brenner
 
 "bar-sinai":
@@ -35,6 +35,5 @@
     url: https://research.ibm.com/people/yuhai-tu
 
 "brodsky":
-  - firstname: ["Emily","Emily E.","Emily E","EE"]
+  - firstname: ["Emily", "Emily E.", "Emily E", "EE"]
     url: https://seismo.sites.ucsc.edu/emily-brodsky/
-

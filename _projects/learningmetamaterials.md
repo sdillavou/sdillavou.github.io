@@ -8,8 +8,6 @@ category: work
 related_publications: true
 ---
 
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/LMMdarkthin.jpeg" title="a generation 2 learning metamaterial" class="img-fluid rounded z-depth-1" %}
@@ -18,7 +16,6 @@ related_publications: true
 <div class="caption">
     An image of a Generation 2 Learning Metamaterial in the lab.
 </div>
-
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Sam
-middle_name: 
+middle_name:
 last_name: Dillavou
 email: dillavou@sas.upenn.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -310,11 +310,11 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-  query: "@*" 
+  query: "@*"
   group_by: type
-  type_order: [preprint,article,inproceedings,patent]
-  sort_by: [year,month]
-  order: descending 
+  type_order: [preprint, article, inproceedings, patent]
+  sort_by: [year, month]
+  order: descending
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
@@ -324,7 +324,27 @@ enable_publication_badges:
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
-  [abbr, abstract, altmetric, arxiv, award, award_name, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website, eprint]
+  [
+    abbr,
+    abstract,
+    altmetric,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    html,
+    pdf,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+    eprint,
+  ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 10 # leave blank to always show all authors
