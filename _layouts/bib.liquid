@@ -41,7 +41,29 @@
   <!-- Entry bib key -->
   <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-10{% else %}col-sm-12{% endif %}">
     <!-- Title -->
-    <div class="title">{{ entry.title }}</div>
+    {% assign title_url = nil %}
+    {% if entry.type == 'preprint' and entry.arxiv %}
+      {% capture title_url %}https://arxiv.org/abs/{{ entry.arxiv }}{% endcapture %}
+    {% elsif entry.doi %}
+      {% capture title_url %}https://doi.org/{{ entry.doi }}{% endcapture %}
+    {% elsif entry.html %}
+      {% if entry.html contains '://' %}
+        {% assign title_url = entry.html %}
+      {% else %}
+        {% assign title_url = entry.html | prepend: '/assets/html/' | relative_url %}
+      {% endif %}
+    {% elsif entry.arxiv %}
+      {% capture title_url %}https://arxiv.org/abs/{{ entry.arxiv }}{% endcapture %}
+    {% elsif entry.url %}
+      {% assign title_url = entry.url %}
+    {% endif %}
+    <div class="title">
+      {% if title_url %}
+        <a href="{{ title_url | strip }}">{{ entry.title }}</a>
+      {% else %}
+        {{ entry.title }}
+      {% endif %}
+    </div>
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -175,23 +197,10 @@
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        <a href="https://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-      {% endif %}  
-      {% if entry.doi %}
-        {% if entry.type == 'article' | entry.type == 'inproceedings' %}
-          <a href="http://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">LINK</a>
-        {% endif %}
-      {% endif %}
-      {% if entry.pd
-      {% if entry.html %}
-        {% if entry.html contains '://' %}
-          <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">LINK</a>
-        {% else %}
-          <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
-        {% endif %}
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
@@ -265,7 +274,7 @@
               class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
-              {% else %}
+              {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% else %}
                 data-id="{{ entry.dimensions }}"
