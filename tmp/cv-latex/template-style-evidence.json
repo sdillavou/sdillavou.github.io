@@ -1,0 +1,135 @@
+{
+  "input": "/Users/Sam/Documents/Resumes:Applications/Academic CV/Academic_CV.docx",
+  "fonts_by_char_count": {
+    "Calibri": 14061
+  },
+  "direct_run_formatting_runs": 1175,
+  "direct_paragraph_formatting_paragraphs": 171,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 3,
+      "text": "M.A. in Physics, Harvard University\tPh.D. Advisor: Shmuel M Rubinstein\t2016",
+      "style": "Normal"
+    },
+    {
+      "para_index": 7,
+      "text": "ARIA R&D Creator (Independent Researcher)\t\t2025-2027",
+      "style": "Normal"
+    },
+    {
+      "para_index": 8,
+      "text": "\t\tTopics: Learning Metamaterials | Distributed & Analog Machine Learning\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 10,
+      "text": "\t\tTopics: Emergent Physical Learning | Granular Flows | ML in Experimental Science\t",
+      "style": "Normal"
+    },
+    {
+      "para_index": 11,
+      "text": "Visiting Researcher EPFL, Switzerland\t           with John M Kolinski \t2018",
+      "style": "Normal"
+    },
+    {
+      "para_index": 12,
+      "text": "\t\tTopic: Developed ultrafast (\u2265 MHz) imaging technique for any camera",
+      "style": "Normal"
+    },
+    {
+      "para_index": 35,
+      "text": "S Dillavou, S Mishra. Physical Reinforcement Learning   \t\tarXiv 2511.17789",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 95,
+      "text": "Received Bok Center Certificate of Teaching Excellence",
+      "style": "Body Text"
+    },
+    {
+      "para_index": 136,
+      "text": "On Physical & Emergent Learning ",
+      "style": "Normal"
+    },
+    {
+      "para_index": 144,
+      "text": "On the Virtual Frame Technique",
+      "style": "Normal"
+    },
+    {
+      "para_index": 147,
+      "text": "On Memory in Frictional Interfaces",
+      "style": "Normal"
+    },
+    {
+      "para_index": 154,
+      "text": "\t1st Prize Statistical & Nonlinear Physics Postdoctoral Speaker Award",
+      "style": "Normal"
+    },
+    {
+      "para_index": 208,
+      "text": "Sam Dillavou, Ph.D.\t\tdillavou@sas.upenn.edu",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "EDUCATION",
+        "style": "Heading 1"
+      },
+      {
+        "para_index": 1,
+        "run_text": " ",
+        "style": "Heading 1"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Ph.D. in Physics",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": ", ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Harvard University",
+        "style": "Normal"
+      }
+    ],
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 7,
+        "text": "ARIA R&D Creator (Independent Researcher)\t\t2025-2027",
+        "style": "Normal"
+      },
+      {
+        "para_index": 8,
+        "text": "\t\tTopics: Learning Metamaterials | Distributed & Analog Machine Learning\t",
+        "style": "Normal"
+      },
+      {
+        "para_index": 9,
+        "text": "Postdoctoral Fellow University of Pennsylvania       with Douglas J Durian & Andrea J Liu     \t2020-2025",
+        "style": "Normal"
+      },
+      {
+        "para_index": 10,
+        "text": "\t\tTopics: Emergent Physical Learning | Granular Flows | ML in Experimental Science\t",
+        "style": "Normal"
+      },
+      {
+        "para_index": 11,
+        "text": "Visiting Researcher EPFL, Switzerland\t           with John M Kolinski \t2018",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

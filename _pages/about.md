@@ -13,8 +13,8 @@ profile:
     U. of Pennsylvania</p>
     <p>Physics & Astronomy</p>
     <p>Philadelphia, PA 19104</p>
-    <p><a href=mailto:"sdillavou@sas.upenn.edu" target="_blank"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
-    <a href=mailto:"sdillavou@sas.upenn.edu" target="_blank">Email</a></p>
+    <p><a href="mailto:sdillavou@sas.upenn.edu" target="_blank"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+    <a href="mailto:sdillavou@sas.upenn.edu" target="_blank">Email</a></p>
     <p><a href="/assets/pdf/Academic_CV.pdf" target="_blank" title="CV"><i class="fa-solid fa-fw fa-file"></i></a>
     <a href="/assets/pdf/Academic_CV.pdf" target="_blank" title="CV">CV</a></p>
     <p><a href="https://scholar.google.com/citations?user=FehGbqYAAAAJ&hl=en" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
