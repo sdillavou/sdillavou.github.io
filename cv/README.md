@@ -14,4 +14,4 @@ Clean generated build files with:
 latexmk -c Academic_CV.tex
 ```
 
-The source prefers Calibri to match the original Word document and falls back to Carlito when Calibri is unavailable. The website's published PDF in `assets/pdf/Academic_CV.pdf` is intentionally separate, so this version can be reviewed before replacing it.
+The source prefers Calibri to match the original Word document and falls back to TeX Gyre Heros when Calibri is unavailable. The website's published PDF in `assets/pdf/Academic_CV.pdf` is intentionally separate, so this version can be reviewed before replacing it.
