@@ -1,5 +1,6 @@
 ---
 ---
+{% unless entry.cv_only == 'true' %}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
@@ -334,3 +335,4 @@
     {% endif %}
   </div>
 </div>
+{% endunless %}

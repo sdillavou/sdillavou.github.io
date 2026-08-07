@@ -9,4 +9,5 @@ _site
 Gemfile.lock
 assets/libs/
 node_modules/
+__pycache__/
 vendor
