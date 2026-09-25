@@ -10,6 +10,8 @@ make
 
 Do not edit `cv-publications.tex` directly. Publication ordering and CV-specific annotations are configured in `generate_publications.py`; titles, authors, venues, years, and links come from the shared BibTeX file.
 
+Journal and workshop papers share the Lead Author and Additional lists. In `cv-content.tex`, reference a publication with `\cvpubref{bibtex_key}` rather than a literal number. The generated publication section supplies its current number and PDF destination, keeping mentoring and software references synchronized when the lists change.
+
 Clean generated build files with:
 
 ```sh

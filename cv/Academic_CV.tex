@@ -50,7 +50,7 @@
   }%
   \AtPageLowerLeft{%
     \put(0,28){\makebox[\paperwidth][c]{\color{cvgray}\fontsize{8.5}{10}\selectfont \thepage\ of \pageref*{LastPage}}}%
-    \put(72,28){\makebox[\textwidth][r]{\color{cvgray}\fontsize{8.5}{10}\selectfont Updated 8/26}}%
+    \put(72,28){\makebox[\textwidth][r]{\color{cvgray}\fontsize{8.5}{10}\selectfont Updated 9/26}}%
   }%
 }
 
@@ -114,10 +114,13 @@
     \hspace*{0.33in}{\color{cvgray}\textit{#1}}\par\vspace{0.15pt}}%
 }
 
-\newcommand{\pubentry}[5]{%
+\newcommand{\cvpubnumber}[2]{\expandafter\def\csname cvpubnumber@#1\endcsname{#2}}
+\newcommand{\cvpubref}[1]{\hyperlink{pub:#1}{[\csname cvpubnumber@#1\endcsname]}}
+
+\newcommand{\pubentry}[6]{%
   {\fontsize{8.75}{9.55}\selectfont
   \begin{tabularx}{\linewidth}{@{}p{0.31in}>{\raggedright\arraybackslash}X@{}}
-    \textcolor{cvgray}{[#1]} & #2.\unskip\nobreak\hfill\href{#5}{\mbox{#4}}\\[-0.2pt]
+    \textcolor{cvgray}{\hypertarget{pub:#6}{}[#1]} & #2.\unskip\nobreak\hfill\href{#5}{\mbox{#4}}\\[-0.2pt]
     & \textit{#3}
   \end{tabularx}}\par\vspace{-0.8pt}
 }
